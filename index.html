@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Box Assignment</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: linear-gradient(120deg, #89f7fe, #66a6ff);
+      font-family: Arial, sans-serif;
+    }
+    .search-box {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0px 8px 20px rgba(0,0,0,0.15);
+    }
+    .search-box input[type="text"] {
+      padding: 10px;
+      width: 250px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      outline: none;
+      margin-right: 8px;
+    }
+    .search-box button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      background: #0078ff;
+      color: #fff;
+      font-size: 14px;
+      cursor: pointer;
+    }
+    .search-box button:hover {
+      background: #005fcc;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="search-box">
+    <!-- Replace YOUR_EMAIL_HERE with your real email -->
+    <form action="https://formsubmit.co/smdharshan2004@gmail.com" method="POST">
+      <!-- Disable Captcha -->
+      <input type="hidden" name="_captcha" value="false">
+      <!-- Redirect after submit -->
+      <input type="hidden" name="_next" value="https://your-username.github.io/your-repo/thankyou.html">
+      
+      <input type="text" name="search_query" placeholder="Type your search..." required>
+      <button type="submit">Search</button>
+    </form>
+  </div>
+
+</body>
+</html>
